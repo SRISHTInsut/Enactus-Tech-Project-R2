@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f5f5dc;
+}
+.container {
+    width: 100%;
+    margin: 0px auto;
+}
+.container .heading{
+    width: 60%;
+    text-align: center;
+    margin: 0px auto;
+}
+.container .heading h1{
+    padding-top: 30px;
+    font-size: 42px;
+    color: #000;
+}
+.conatiner .heading p{
+    margin-top: 15px;
+    color: #6e6e6e;
+    font-size: 17px;
+    line-height: 1.5;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+}
+.content .card{
+    flex: 1;
+    margin: 40px 20px;
+}
+.content .card img{
+    width: 100%;
+    height: auto;
+}
+.content .card .text-title{
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+}
+.content .card h4{
+    margin-top: 5px;
+    font-size: 17px;
+}
+.content .card p{
+    font-size: 16px;
+    margin-top: 10px;
+    color: #6e6e6e;
+    line-height: 1.5;
+}
+@media screen and (max-width: 768px){
+    .content{
+        flex-direction: column;
+    }
+}
